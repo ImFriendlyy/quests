@@ -1,0 +1,33 @@
+tasks:
+  walking:
+    type: "walking"
+    distance: 5000
+    mode: walking  
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l4"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eПройти 5000 блоков пешком"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{walking:progress}&7/&65000"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$50000 и Зелье стремительности II (01:30) 2х"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "shears"
+rewards:
+  - "eco give {player} 50000"
+  - "give {player} minecraft:potion{Potion:\"minecraft:strong_swiftness\"} 2"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{walking:progress}&7/30 blocks broken"
+
+options:
+  category: "examples"
+  requires:
+    - "example3" 
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 4

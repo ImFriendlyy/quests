@@ -1,0 +1,37 @@
+tasks:
+  citizens_deliver:
+    type: "citizens_deliver"
+    npc-name: "quests"                 
+    item: IRON_INGOT            
+    amount: 2500                             
+    remove-items-when-complete: true     
+    allow-partial-completion: true    
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l28"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eСдать 2500 железа"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{citizens_deliver:progress}&7/&6500"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$800000 иКит Титана и 700 даков"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "IRON_INGOT"
+rewards:
+  - "kit titan {player}"
+  - "eco give {player} 800000"
+  - "p give {player} 700"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "{citizens_deliver:progress}"
+
+options:
+  category: "examples"
+  repeatable: false
+  requires:
+    - "example27" 
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 28

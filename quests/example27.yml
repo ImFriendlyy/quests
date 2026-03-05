@@ -1,0 +1,34 @@
+tasks:
+  compass:
+    type: "crafting"
+    item: ENCHANTED_GOLDEN_APPLE
+    amount: 10                             
+    data: 0   
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l27"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eСкрафтить 10 зачарованных золотых яблок"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{compass:progress}&7/&610"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$500000 и 3000 опыта"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "ENCHANTED_GOLDEN_APPLE"
+rewards:
+  - "xp give {player} 3000"
+  - "eco give {player} 500000"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{compass:progress}"
+
+options:
+  category: "examples"
+  repeatable: false
+  requires:
+    - "example26" 
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 27

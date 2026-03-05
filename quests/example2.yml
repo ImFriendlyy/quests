@@ -1,0 +1,35 @@
+tasks:
+  oak_log:
+    type: "inventory"
+    item: OAK_LOG                           # name of item (can be id or minecraft name)
+    amount: 50                            # amount of item needed
+    remove-items-when-complete: false     # (OPTIONAL) take the items away from the player on completion - default: false
+    allow-partial-completion: false       # (OPTIONAL) allow partial deliveries - default: true
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l2"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eпринести 50 дубовых брёвен"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{ak_lo:progress}&7/&650"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$20000 монет и алмазный топор"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "potato"
+rewards:
+  - "eco give {player} 20000"
+  - "give {player} diamond_axe 1"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{ak_lo:progress}&7/30 blocks broken"
+
+options:
+  category: "examples"
+  requires:
+    - "example1" 
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 2

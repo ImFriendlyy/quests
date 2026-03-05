@@ -1,0 +1,33 @@
+tasks:
+  playtime:
+    type: "playtime"
+    minutes: 180
+    ignore-afk: true 
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l6"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eОтыграть 3 часа"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{playtime:progress}&7/&6180 мин."
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$75000"
+    - "&x&F&F&D&B&0&0&l╚" 
+  type: "WHEAT"
+rewards:
+  - "eco give {player} 75000"
+  - 'give {player} minecraft:potion{Potion:"minecraft:regeneration"} 3'
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{playtime:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example5" 
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 6

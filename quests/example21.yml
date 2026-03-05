@@ -1,0 +1,33 @@
+tasks:
+  killplayers:
+    type: "playerkilling"
+    amount: 35
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l21"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eУбить 35 игроков"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{killplayers:progress}&7/&635"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$395000 и тотем бессмертия x3 и Незеритовый слиток x4"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "netherite_sword"
+rewards:
+  - "eco give {player} 395000"
+  - "give {player} totem_of_undying 3"
+  - "give {player} netherite_ingot 4"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{killplayers:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example20" 
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 21
