@@ -1,0 +1,33 @@
+tasks:
+  playtime:
+    type: "playtime"
+    amount: 1800
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l20"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eОтыграть 30 часов"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{playtime:progress}&7/&61800 мин"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$380000, Алмаз x64 и Изумруд x32"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "clock"
+rewards:
+  - "eco give {player} 380000"
+  - "give {player} diamond 64"
+  - "give {player} emerald 32"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{playtime:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example19"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 20
