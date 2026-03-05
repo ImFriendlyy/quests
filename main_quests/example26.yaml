@@ -1,0 +1,36 @@
+tasks:
+  deliver_netherite:
+    type: "citizens_deliver"
+    npc-name: "quests"
+    item: NETHERITE_INGOT
+    amount: 15
+    remove-items-when-complete: true
+    allow-partial-completion: true
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l26"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eСдать 15 незеритовых слитков"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{deliver_netherite:progress}&7/&615"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$500000 и Кейс с монетами"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "netherite_ingot"
+rewards:
+  - "eco give {player} 500000"
+  - "cubelets give {player} money_case 1"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{deliver_netherite:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example25"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 26

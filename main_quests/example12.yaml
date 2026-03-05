@@ -1,0 +1,31 @@
+tasks:
+  mobkilling:
+    type: "mobkilling"
+    amount: 175
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l12"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eУбить 175 мобов"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{mobkilling:progress}&7/&6175"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &aКит Маркиза"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "netherite_sword"
+rewards:
+  - "kit markiz {player}"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{mobkilling:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example11"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 12
