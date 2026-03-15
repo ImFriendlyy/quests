@@ -1009,51 +1009,51 @@ Morphs:
     Description: По сути маленький тигр
   CaveSpider:
     name: <bold><yellow>Пещерный паук
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Паук, но ядовитый!
   Cod:
     name: <bold><yellow>Треска
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Любит воду больше суши!
   Dolphin:
     name: <bold><yellow>Дельфин
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Самое счастливое существо морей!
   Donkey:
     name: <bold><gray>Осёл
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Может носить все твои вещи!
   Drowned:
     name: <bold><dark_aqua>Утопленник
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Подводный зомби!
   Endermite:
     name: <bold><dark_purple>Эндермит
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Привлекает эндерменов!
   Evoker:
     name: <bold><gray>Заклинатель
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Призывает вредин себе на жизнь!
   Frog:
     name: <bold><dark_green>Лягушка
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Не любит светлячков!
   Fox:
     name: <bold><light_purple>Лиса
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Что говорит лиса?
   GlowSquid:
     name: <bold><dark_aqua>Светящийся спрут
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Он светится!
   Goat:
     name: <bold><white>Коза
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: БЕЕЕЕ!
   Guardian:
     name: <bold><dark_aqua>Страж
-    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>СДЕЛАТЬ'
+    skill: '<yellow>ЛКМ</yellow><gray>, чтобы: </gray><green>Скоро будет'
     Description: Ненавидит спрутов!
   Wolf:
     name: <bold><gray>Волк
@@ -1162,6 +1162,7 @@ Morphs:
     Description: Любит прятаться!
   Sniffer:
     name: <bold><green>Нюхач
+    Description: '*нюх-нюх*'
 Hats:
   Equip: <prefix> <blue>Вы надели шапку <hatname>!
   Unequip: <prefix> <blue>Вы сняли шапку <hatname>!
@@ -1899,5 +1900,4 @@ Invalid-Player: <prefix> <bold><red>Неверный игрок!
 Must-Specify-Player: <prefix> <bold><red>Вы должны указать игрока!
 Invalid-Number: '<prefix> <bold><red>Неверное число: <value>'
 Treasure-Keys-Given: <green><keys> ключей выдано игроку <playername>
-Ammo-Given: <green><ammo> зарядов для <gadgetname> выдано игроку <playername>
 Ammo-Given: <green><ammo> зарядов для <gadgetname> выдано игроку <playername>
