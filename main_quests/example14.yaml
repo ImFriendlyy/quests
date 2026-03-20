@@ -1,0 +1,33 @@
+tasks:
+  taming:
+    type: "taming"
+    amount: 10
+    mob: WOLF
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l14"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eПриручить 10 волков"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{taming:progress}&7/&610"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$300000 и 1000 опыта"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "bone"
+rewards:
+  - "eco give {player} 300000"
+  - "xp give {player} 1000"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{taming:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example13"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 14

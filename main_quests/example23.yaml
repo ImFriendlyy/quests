@@ -1,0 +1,33 @@
+tasks:
+  consume_totem:
+    type: "consume"
+    item: TOTEM_OF_UNDYING
+    amount: 10
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l23"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eИспользовать 10 тотемов бессмертия"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{consume_totem:progress}&7/&610"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$425000 и 3000 опыта"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "totem_of_undying"
+rewards:
+  - "eco give {player} 425000"
+  - "xp give {player} 3000"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{consume_totem:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example22"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 23

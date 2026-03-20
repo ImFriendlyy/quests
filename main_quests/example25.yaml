@@ -1,0 +1,36 @@
+tasks:
+  collect_eggs:
+    type: "interact"
+    block: "TURTLE_EGG"
+    action: RIGHT_CLICK_BLOCK
+    exact-match: false
+    amount: 10
+display:
+  name: "&x&0&8&F&B&9&C&lК&x&0&7&F&C&8&6&lв&x&0&7&F&C&6&F&lе&x&0&6&F&D&5&9&lс&x&0&6&F&D&4&3&lт &x&0&5&F&E&1&6&l#&x&0&4&F&F&0&0&l25"
+  lore-normal:
+    - "&x&F&F&7&8&0&0&l╔"
+    - "&x&F&F&8&C&0&0&l╠ &fЦель: &eСобрать 10 черепашьих яиц"
+    - "&x&F&F&A&0&0&0&l╠ &fПрогресс: &6{collect_eggs:progress}&7/&610"
+    - "&x&F&F&B&3&0&0&l╠"
+    - "&x&F&F&C&7&0&0&l╠ &fНаграда: &a$450000, 500 даков и Неразрушимые элитры"
+    - "&x&F&F&D&B&0&0&l╚"
+  type: "turtle_egg"
+rewards:
+  - "eco give {player} 450000"
+  - "p give {player} 500"
+  - "dwi give unbreakable_elytra {player} 1"
+placeholders:
+  description: ""
+  progress: ""
+progress-placeholders:
+  '*': "&f{collect_eggs:progress}"
+
+options:
+  category: "examples"
+  requires:
+    - "example24"
+  repeatable: false
+  cooldown:
+    enabled: false
+    time: 1440
+  sort-order: 25
